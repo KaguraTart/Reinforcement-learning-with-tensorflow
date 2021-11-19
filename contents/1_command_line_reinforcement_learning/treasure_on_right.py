@@ -76,7 +76,7 @@ def update_env(S, episode, step_counter):
 
 def rl():
     # main part of RL loop
-    q_table = build_q_table(N_STATES, ACTIONS)
+    q_table = bui  ld_q_table(N_STATES, ACTIONS)
     for episode in range(MAX_EPISODES):
         step_counter = 0
         S = 0
